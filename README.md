@@ -1,8 +1,8 @@
 # test-app
 
-<b>Client run on localhost:3030</b></br>
-<b>Server run on localhost:3000</b></br>
-<b>Server api run on localhost:3000/api </b> </br>
+<b>Client run on <a href="http://localhost:3030/">http://localhost:3030/</a></b></br>
+<b>Server run on <a href="http://localhost:3000/">localhost:3000</a></b></br>
+<b>Server api run on <a href="http://localhost:3000/api"> localhost:3000/api</a> </b> </br>
 
 <b>setup:</b>
 

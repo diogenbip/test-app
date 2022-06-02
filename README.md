@@ -1,26 +1,29 @@
 # test-app
-setup:
 
-npm install 
-npm config set legacy-peer-deps true 
-lerna bootstrap --hoist 
-npm run start 
+<b>setup:</b>
 
-(on Windows) for stop: npm run kill-ports 
+npm install <br />
+npm config set legacy-peer-deps true <br />
+lerna bootstrap --hoist <br />
+npm run start <br />
 
-setup blockchain:
+<b>(on Windows) for stop:</b>
 
-change the current working directory to blockchain dir 
-npm install 
-npx hardhat compile 
-npx hardhat test 
+npm run kill-ports <br />
 
-server folder:
+<b>setup blockchain:</b>
+
+change the current working directory to blockchain dir <br />
+npm install <br />
+npx hardhat compile <br />
+npx hardhat test <br />
+
+<b>server folder:</b>
 test-app (Nest JS)
-client folder:
+<b>client folder:</b>
 test-react-app (React APP)
-blockchain folder:
+<b>blockchain folder:</b>
 blockchain (Hardhat, uniswap)
 
-p.s. Service sendgrid was added as example (it will work with api_key of sendgrid).A real mail service use smtp of mail.ru and nodemailer. Sendgrid (and services like sendgrid too) did not allow to register
-p.s.s. Blockchain sample-test.js add and remove liquidity correctly with local coins. 
+<b>P.S.</b> Service sendgrid was added as example (it will work with api_key of sendgrid).A real mail service use smtp of mail.ru and nodemailer. Sendgrid (and services like sendgrid too) did not allow to register</br>
+<b>P.S.S.</b> Blockchain sample-test.js add and remove liquidity correctly with local coins. 

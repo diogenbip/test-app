@@ -13,7 +13,7 @@ import { SendgridService } from './sendgrid/sendgrid.service';
       imports: [ConfigModule],
       useFactory: (configService: ConfigService) => ({
         type: 'postgres',
-        url: 'postgres://czkghbkg:nrOp-CNMGOSRHGbIIE32m2JAGMjWkJBt@tyke.db.elephantsql.com/czkghbkg',
+        url: configService.get('POSTGRES_URL'),
         entities: ['dist/**/*.entity.js'],
         synchronize: true,
         logging: true,

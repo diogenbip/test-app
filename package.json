@@ -1,0 +1,11 @@
+{
+  "version": "1.0.0",
+  "devDependencies": {
+    "lerna": "^5.0.0"
+  },
+  "name": "test-app",
+  "scripts": {
+    "kill-ports": "npx kill-port --port 3030,3000",
+    "start": "npm run kill-ports  && lerna run start"
+  }
+}

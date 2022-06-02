@@ -1,0 +1,17 @@
+0 silly argv {
+0 silly argv   _: [ 'clean' ],
+0 silly argv   y: true,
+0 silly argv   yes: true,
+0 silly argv   lernaVersion: '5.0.0',
+0 silly argv   '$0': 'node_modules\\lerna\\cli.js'
+0 silly argv }
+1 notice cli v5.0.0
+2 verbose rootPath D:\test-app
+3 info clean removing D:\test-app\test-app\node_modules
+4 silly rimrafDir D:\test-app\test-app\node_modules
+5 info clean removing D:\test-app\test-react-app\node_modules
+6 silly rimrafDir D:\test-app\test-react-app\node_modules
+7 error Error: Command failed with exit code 1: C:\Program Files\nodejs\node.exe D:\test-app\node_modules\rimraf\bin.js --no-glob D:\test-app\test-react-app\node_modules\
+7 error     at makeError (D:\test-app\node_modules\execa\lib\error.js:60:11)
+7 error     at handlePromise (D:\test-app\node_modules\execa\index.js:118:26)
+7 error     at processTicksAndRejections (node:internal/process/task_queues:96:5)

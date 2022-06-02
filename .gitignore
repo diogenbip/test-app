@@ -1,0 +1,47 @@
+./test-app/node_modules
+# compiled output
+./test-app/dist
+# Logs
+./test-app/logs
+./test-app/*.log
+./test-app/npm-debug.log*
+./test-app/pnpm-debug.log*
+./test-app/yarn-debug.log*
+./test-app/yarn-error.log*
+./test-app/lerna-debug.log*
+# OS
+./test-app/.DS_Store
+# Tests
+./test-app//coverage
+./test-app//.nyc_output
+# IDEs and editors
+./test-app//.idea
+./test-app/.project
+./test-app/.classpath
+./test-app/.c9/
+./test-app/*.launch
+./test-app/.settings/
+./test-app/*.sublime-workspace
+
+
+./test-react-app/node_modules
+./test-react-app/.pnp
+./test-react-app/.pnp.j
+# testing
+./test-react-app/coverage
+# production
+./test-react-app/build
+# misc
+./test-react-app/.DS_Store
+./test-react-app/.env.local
+./test-react-app/.env.development.local
+./test-react-app/.env.test.local
+./test-react-app/.env.production.local
+./test-react-app/npm-debug.log*
+./test-react-app/yarn-debug.log*
+./test-react-app/yarn-error.log*
+
+./blockchain/node_modules
+./blockchain/cache
+./blockchain/artifacts
+/node_modules

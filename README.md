@@ -2,7 +2,7 @@
 
 <b>Client run on localhost:3030</b></br>
 <b>Server run on localhost:3000</b></br>
-<b>Server api run o localhost:3000/api </b> </br>
+<b>Server api run on localhost:3000/api </b> </br>
 
 <b>setup:</b>
 

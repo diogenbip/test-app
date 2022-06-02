@@ -1,0 +1,71 @@
+body{background-color: #EEE8F6}
+.card {
+    background-color: white;
+    margin: auto;
+    width: 20%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.container {
+    padding: 2px 16px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 10%;
+    font-family: sans-serif;
+    color: #05031A;
+}
+
+h4{
+    text-align: center;
+    color: #05031A;
+    margin-top: 1%;
+    margin-bottom: 0%;
+    font-family: sans-serif;
+}
+
+label{
+    color: #05031A;
+    font-family: sans-serif;
+}
+
+.signIn {
+    background-color: #5B1EFF;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 25px;
+}
+
+.signUp {
+    color: #05031A;
+    background-color: #F7F5FA;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 25px;
+}
+
+.signUp:hover {
+    opacity: 0.8;
+}
+
+input[type=text], input[type=password],input[type=number] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    box-sizing: border-box;
+}
+
+

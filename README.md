@@ -1,19 +1,19 @@
 # test-app
 setup:
 
-npm install /
-npm config set legacy-peer-deps true /
-lerna bootstrap --hoist /
-npm run start /
+npm install 
+npm config set legacy-peer-deps true 
+lerna bootstrap --hoist 
+npm run start 
 
-(on Windows) for stop: npm run kill-ports /
+(on Windows) for stop: npm run kill-ports 
 
 setup blockchain:
 
-change the current working directory to blockchain dir /
-npm install /
-npx hardhat compile /
-npx hardhat test /
+change the current working directory to blockchain dir 
+npm install 
+npx hardhat compile 
+npx hardhat test 
 
 server folder:
 test-app (Nest JS)
